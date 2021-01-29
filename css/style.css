@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+   
+}
+ul li a{
+    font-size: 21px;
+    margin-left: 15px;
+}
+h2{
+    color: #242A56;
+    font-weight: 700;
+    text-align: center;
+    padding: 5rem 0;
+}
+p{
+    font-size: 19px;
+}
+
+.brand-logo img{
+    display: flex;
+    margin: 0 auto;
+}
+#slide-out{
+    background-color: black;
+}
+#slide-out li a{
+    color: #fff;
+}
+#slide-out li{
+    padding-top: 2rem;
+}
+.sidenav .background{
+    width: 100%;
+    height: 80px;
+}
+.sidenav .background img{
+    display: flex;
+    margin: 0 auto;
+   
+}
+.btn-custom{
+    background-color: #6878D6!important;
+    height: 3rem;
+    border-radius: 5px;
+    width: auto;
+    
+}
+.btn-custom:hover{
+    background-color: blanchedalmond!important;
+}
+.btn-custom a:hover{
+    color: #000;
+}
+.btn-custom a{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 16px!important;
+    margin: 0 auto;
+}
+.custom-head{
+    background-image: linear-gradient( to top, rgba(48, 58, 85, 0.5), rgba(49, 58, 102, 0.9)),url(/image/laptop-3317007_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 740px;
+
+}
+.custom-body{
+    background-color:#F3F5FA ;
+}
+.custom-body .custom-box{
+    padding: 0 4rem;
+   
+}
+.custom-body .custom-box img{
+    width: 120px;
+    height: 120px;
+    padding: 1.5rem;
+}
+.custom-body .custom-box .card{
+    padding: 2rem 0;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.custom-body .custom-box .card:hover{
+    background-color: cornsilk;
+}
+.custom-body .custom-box .card .card-title{
+    font-weight: 700;
+}
+.custom-portfolio{
+    padding: 4rem;
+}
+.portfolio-img img{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+.customer-box{
+    border: 10px black;
+}
+.custom-footer{
+    background-color: #242A56;
+    color: #fff;
+}
+.custom-footer h6{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+.custom-footer ul li a{
+    color: #fff;
+}
+.custom-footer .social i{
+    padding-left: 10px;
+    font-size: 1.8rem;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: 5sec ease-in;
+}
+.custom-footer .social i:hover{
+    color: coral;
+    transition: 1sec ease;
+}
+.copy{
+    background-color: #0a0c1a;
+    padding: 2rem;
+}
+@media only screen and (max-width: 565px){
+    .col.l3.customer-box {
+        margin-left: 5rem;
+    }
+    .custom-footer{
+        text-align: center;
+    }
+}
